@@ -22,6 +22,7 @@ function changeLeastFavoriteCustomer() {
 }
 
 function attemptTwoFavoriteCustomers() {
+  // will not work because using let ensures you cannot declare the same variable name twice
   let favoriteCustomer = 'betty';
   let favoriteCustomer = 'jiro';
 }

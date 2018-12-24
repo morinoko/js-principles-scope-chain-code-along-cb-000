@@ -17,7 +17,11 @@ function overWriteBestCustomer() {
 const leastFavoriteCustomer = 'jim';
 
 function changeLeastFavoriteCustomer() {
+  // cannot reassign because the variable was set a constant
   leastFavoriteCustomer = 'not jim';
 }
 
-
+function attemptTwoFavoriteCustomers() {
+  let favoriteCustomer = 'betty';
+  let favoriteCustomer = 'jiro';
+}
